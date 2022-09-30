@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TrainTickets</title>
+    <link rel="stylesheet" href="css/comprar.css">
+</head>
+
+<body>
+    <nav class="header">
+        <h1 class="azul">
+            Train Tiquets
+        </h1>
+        <ul class="menu1">
+            <li class="menu"><a href="/principal">Cerrar sesion</a></li>
+        </ul>
+
+
+    </nav>
+
+    <div>
+    <section>
+        <div class="product">
+            <img src="https://flagcdn.com/160x120/co.png" alt="The cover of Stubborn Attachments" />
+            <div class="description">
+                <h3>Stubborn Attachments</h3>
+                <h5>$20.00</h5>
+            </div>
+        </div>
+        <form action="/comprarr" method="POST">
+            <input class="CheckoutInput CheckoutInput--tabularnums Input Input--empty" autocomplete="cc-number" autocorrect="off"
+                spellcheck="false" id="cardNumber" name="cardNumber" type="text" inputmode="numeric"
+                aria-label="Número de la tarjeta" placeholder="1234 1234 1234 1234" aria-invalid="false" value="">
+            <button type="submit" id="checkout-button">Checkout</button>
+        </form>
+    </section>
+    </div>
+    <footer>
+        <p>
+            &copy;2022 Los Ilucionistas<br>tickettrain121@gmail.com
+        </p>
+    </footer>
+</body>
+
+</html>
